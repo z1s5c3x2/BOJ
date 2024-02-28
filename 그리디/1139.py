@@ -6,8 +6,19 @@ for x in list1:
     for i,a in enumerate(x):
         if a in tmp:
             tmp[a] += 10**(ln-(i+1))
+
         else:
             tmp[a] = 10**(ln-(i+1))
+
+#1 Way
+#rnk = 9
+#ans = 0
+#for x in sorted(tmp.items(), key= lambda x: x[1], reverse=True):
+#    ans += tmp[x[0]]*rnk
+#    rnk -=1
+#print(ans)
+
+#2 Way
 rnk = 9
 for x in sorted(tmp.items(), key= lambda x: x[1], reverse=True):
     for y,z in enumerate(list1):

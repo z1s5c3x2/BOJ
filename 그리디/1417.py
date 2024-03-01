@@ -13,5 +13,7 @@ else:
         list1[0] -= 1
         cnt += 1
         list1.sort(reverse=True)
-        
+
     print(cnt)
+
+1520b1b

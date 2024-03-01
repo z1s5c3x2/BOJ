@@ -15,5 +15,3 @@ else:
         list1.sort(reverse=True)
 
     print(cnt)
-
-1520b1b

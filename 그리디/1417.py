@@ -15,4 +15,3 @@ else:
         list1.sort(reverse=True)
 
     print(cnt)
-

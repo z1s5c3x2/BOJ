@@ -16,3 +16,4 @@ for _ in range(int(input())):
 
 print(*answer,sep='\n')
 
+
